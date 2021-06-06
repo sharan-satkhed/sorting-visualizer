@@ -13,6 +13,12 @@
 
 .bar-char-item{
   background-color :orange;
-  margin: 0.5px;
+  margin: px;
 }
 
+@media only screen and (max-width: 900px) {
+  .bar-char-container{
+    height: 65%;
+    bottom: 2%;
+  }
+}
